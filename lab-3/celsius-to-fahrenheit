@@ -1,0 +1,29 @@
+#include <stdio.h> 
+
+  
+
+int main()  
+
+{ 
+
+    int C , results ; 
+
+  
+
+    printf("Enter Celsius value: "); 
+
+    scanf("%d", &C); 
+
+  
+
+    results = (C * (9.0 / 5)) + 32;  
+
+  
+
+    printf("F = %d", results); 
+
+  
+
+    return 0; 
+
+} 
