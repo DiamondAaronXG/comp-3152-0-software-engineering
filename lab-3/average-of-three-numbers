@@ -1,40 +1,21 @@
 #include <stdio.h> 
 
-  
-
 int main() { 
 
     float firstnumber , secondnumber , thirdnumber , results; 
 
-     
-
     printf("Enter first number: "); 
-
     scanf("%f" , &firstnumber); 
 
-     
-
     printf("Enter second number: "); 
-
     scanf("%f" , &secondnumber); 
 
-     
-
     printf("Enter third number: "); 
-
-    scanf("%f" , &thirdnumber); 
-
-     
+    scanf("%f" , &thirdnumber);    
 
     results = ((firstnumber + secondnumber + thirdnumber)/3); 
 
-     
-
     printf("(%f + %f + %f)/3 = %f" , firstnumber, secondnumber, thirdnumber, results); 
-
-     
-
-  
 
     return 0; 
 
