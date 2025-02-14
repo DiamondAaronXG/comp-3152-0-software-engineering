@@ -1,6 +1,10 @@
 #include <stdio.h>  
 
-int main() { double firstnumber; double secondnumber; double answer; char operation;  
+int main() { 
+double firstnumber; 
+double secondnumber; 
+double answer; 
+char operation;  
 
 printf("Enter First Number: "); 
 scanf("\n%lf", &firstnumber);  
