@@ -3,7 +3,7 @@
 int main()  
 { 
 
-    // Declared variables
+    // Declares variables
     
     int C , results ; 
 
