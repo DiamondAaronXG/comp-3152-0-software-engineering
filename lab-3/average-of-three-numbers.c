@@ -2,7 +2,7 @@
 
 int main() { 
 
-    // Sets variables
+    // Declares variables
     
     float firstnumber , secondnumber , thirdnumber , results; 
 
