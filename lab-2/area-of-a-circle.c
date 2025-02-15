@@ -1,4 +1,5 @@
 #include <stdio.h>
+#define PI 3.141592653
 
 int main()
 {
@@ -6,7 +7,6 @@ int main()
   // Declares variables
   
   double r ;
-  double pi = 3.141592653 ;
   double area ;
 
   // Asks for and scans user input
@@ -16,7 +16,7 @@ int main()
 
   // Calculates area
 
-  area = (pi * r * r);
+  area = (PI * r * r);
 
   // Prints results
 
