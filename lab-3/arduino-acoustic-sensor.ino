@@ -1,11 +1,10 @@
 #define PIN_TRIG 3 
-
 #define PIN_ECHO 2 
-
- 
 
 void setup() { 
 
+ //sets the mode for each pin being used
+ 
   pinMode(13, OUTPUT); 
   Serial.begin(115200); 
   pinMode(PIN_TRIG, OUTPUT); 
