@@ -14,7 +14,7 @@ int main()
   printf("Enter n:"); 
   scanf("%d", &n); 
 
-  // For counter equals 1, if counter is greater than n, add 1 to the counter
+  // For counter equals 1, if counter is less than or equal to n, add 1 to the counter
 
   for (counter = 1; counter <=n; counter++) 
 
