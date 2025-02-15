@@ -1,10 +1,17 @@
 #include <stdio.h> 
 
 int main(){ 
+
+  // Declares variable
+  
   int dayofweek; 
+
+  // Asks for and scans user input
 
   printf("Enter a numerical value for a day of the week: "); 
   scanf("%d", &dayofweek); 
+
+  // Switch case to correlate numerical day of the week value to the day of the week
     
   switch(dayofweek) { 
 
