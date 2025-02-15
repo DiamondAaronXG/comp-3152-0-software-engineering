@@ -3,16 +3,22 @@
 int main()  
 { 
 
+    // Declared variables
+    
     int C , results ; 
+
+    // Asks for and scans user input
 
     printf("Enter Celsius value: "); 
     scanf("%d", &C); 
 
-    results = (C * (9.0 / 5)) + 32;  
+    // Calculates fahrenheit
+
+    results = (C * (9.0 / 5)) + 32; 
+
+    // Prints results
 
     printf("F = %d", results); 
-
-  
 
     return 0; 
 
