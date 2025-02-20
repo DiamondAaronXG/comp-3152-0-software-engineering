@@ -13,6 +13,6 @@ int main() {
 	printf("Enter a Fahrenheit value:");
 	scanf("%f", &F);
 	C = temp(F);
-	printf("%f in Celsius is %f", F, C);
+	printf("%f degrees in Celsius is %f degrees", F, C);
 
 }
