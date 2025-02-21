@@ -2,7 +2,7 @@
 
 int main(){ 
 
-    // Defines variables 
+    // Declares variables 
 
     int integer , counter ;
     int sum = 1 ;
