@@ -18,7 +18,7 @@ int main() {
         goto END ;
     }    
     
-        // While integer is not equal to 0, divide integer by 10 and 1 to cpunter each time
+        // While integer is not equal to 0, divide integer by 10 and 1 to coumter each time
         
         else{
             while (integer != 0) {
