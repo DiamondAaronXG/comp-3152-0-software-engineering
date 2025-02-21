@@ -29,4 +29,6 @@ int main() {
 	
 	printf("%f degrees in Celsius is %f degrees", F, C);
 
+	return 0;
+
 }
