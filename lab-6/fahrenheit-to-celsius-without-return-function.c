@@ -25,6 +25,6 @@ int main() {
 
 	temp(F);
 
-	return 0
+	return 0;
 
 }
