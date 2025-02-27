@@ -8,7 +8,7 @@ int main()
 
   int xdeg ;
   double xrad ;
-  double radestimation ;
+  double sinestimation ;
 
   // Asks for and scans user input
   
@@ -19,13 +19,13 @@ int main()
 
   xrad = (PI/180) * xdeg ;
 
-  // Estimates a radian value of the given degree value using Taylor Series
+  // Estimates the evaluated sine trig function
   
-  radestimation = (xrad-((xrad*xrad*xrad)/6)+((xrad*xrad*xrad*xrad*xrad)/120)-((xrad*xrad*xrad*xrad*xrad*xrad*xrad)/5040));
+  sinestimation = (xrad-((xrad*xrad*xrad)/6)+((xrad*xrad*xrad*xrad*xrad)/120)-((xrad*xrad*xrad*xrad*xrad*xrad*xrad)/5040));
 
   // Prints results
   
-  printf("x in degrees = %i, x in radians = %lf , radian estimation = %lf" , xdeg, xrad, radestimation);
+  printf("x in degrees = %i, x in radians = %lf , sine estimation = %lf" , xdeg, xrad, sinestimation);
 
   return 0;
 
