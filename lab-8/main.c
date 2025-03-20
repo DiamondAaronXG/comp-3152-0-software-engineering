@@ -3,11 +3,14 @@
 
 int main(void) {
 
+	// Declares variables
+	
 	float R1 = 10.0, R2 = 15.0;
 	float C1 = 3.0, C2 = 6.0;
 	float r = 2.0;
-
 	float x1 = 9.0, x2 = 6.0, y1 = -2.0, y2 = 2.0;
+
+	// Prints results from functions in "mylib.c"
 
 	printf("\n  Resistors in series    = %g", rSer(R1, R2));
 	printf("\n  Resistors in parallel  = %g", rPar(R1, R2));
