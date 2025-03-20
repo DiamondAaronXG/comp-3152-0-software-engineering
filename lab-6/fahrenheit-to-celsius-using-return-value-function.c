@@ -9,6 +9,7 @@ float temp(float F) {
 	return (F - 32) * (5 / 9);
 
 }
+
 int main() {
 
 	// Declares variables
