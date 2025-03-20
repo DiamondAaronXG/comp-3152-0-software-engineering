@@ -9,7 +9,15 @@ int main()
 {
 	// Declares variables
 	
-	float r=2, h=1.5 ;
+	float r, h ;
+
+	// Asks and scans for user input
+
+	printf("Enter the radius of the cylinder: ");
+	scanf("%f", &r);
+
+	printf("Enter the height of the cylinder: ");
+	scanf("%f", &h);
 
 	// Prints results
 
