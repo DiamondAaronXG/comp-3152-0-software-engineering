@@ -4,7 +4,7 @@
 
 #define getPerimeter(r) (PI * r * r)
 
-// Declares function prototypes
+// Declares function prototypes for functions in "mylib.c"
 
 float rSer(float R1,float R2);
 
