@@ -9,11 +9,16 @@ int main()
 {
 	// Declares variable
 	
-	float r=1.5 ;
+	float r ;
+
+	// Asks and scans for user input
+
+	printf("Enter a value for the radius of your circle: ");
+	scanf("%f", &r);
 
 	// Prints results
 
-	printf("\n Area of a sphere = %g", area(r));
+	printf("\n The area of the sphere = %g", area(r));
 
 	return 0;
 }
