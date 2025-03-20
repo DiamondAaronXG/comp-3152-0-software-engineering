@@ -5,10 +5,36 @@ int main(void) {
 
 	// Declares variables
 	
-	float R1 = 10.0, R2 = 15.0;
-	float C1 = 3.0, C2 = 6.0;
-	float r = 2.0;
-	float x1 = 9.0, x2 = 6.0, y1 = -2.0, y2 = 2.0;
+	float R1 , R2 ;
+	float C1 , C2 ;
+	float r ;
+	float x1 , x2 , y1 , y2 ;
+
+	// Asks and scans for user input for resistors
+
+	printf("Enter a value for two resistors you would like to add in series and in parallel (Press enter after each entry): ");
+	scanf("%f", &R1);
+	scanf("%f", &R2);
+
+	// Asks and scans for user input for capacitors
+	
+	printf("Enter a value for two capacitors you would like to add in series and in parallel (Press enter after each entry): ");
+	scanf("%f", &C1);
+	scanf("%f", &C2);
+
+	// Asks and scans for user input for circle radius
+
+	printf("Enter a radius value for the circle you would like to find the perimeter of: ");
+	scanf("%f", &r);
+
+	// Asks and scans for user input for two sets of x,y coordinates
+
+	printf("Enter two sets of x,y coordinates you would like to find the distance between in the order of x1, y1, x2, y2 (Press enter after each entry)");
+	scanf("%f", &x1);
+	scanf("%f", &y1);
+	scanf("%f", &x2);
+	scanf("%f", &y2);
+	
 
 	// Prints results from functions in "mylib.c"
 
