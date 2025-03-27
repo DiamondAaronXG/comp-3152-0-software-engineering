@@ -10,8 +10,6 @@ int main()
         sum += A[x] ;
     }
     
-    
-    
     printf("sum = %f", sum);
 
     return 0;
