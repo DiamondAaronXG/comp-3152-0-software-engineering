@@ -1,18 +1,41 @@
 #include <stdio.h>
 
 int main() {
-	float A[] = {1.5, 2.5, 3.5, 4.5} ;
 
-	int x, n = sizeof(A) / sizeof(A[0]);
+	// Initializes variables
 
+	int t, i ;
 	float sum = 0 ;
 
-	for(x=0; x<n; x++) {
+	// Asks for and scans user input for number of array elements
 
-		sum += A[x] ;
+	printf("Enter the number of elements in the array: ");
+	scanf("%d", &t);
+
+	// Initializes array
+
+	float arr[t] ;
+
+	// Asks for and scans user input for array elements
+
+	printf("Enter numbers for the array (Click enter after each entry): \n");
+	for(i=0; i<t; i++) {
+		scanf("%f", &arr[i]);
+
 	}
 
-	sum = sum / (sizeof(A) / sizeof(A[0])) ;
+	// Finds the sum of all array elements
+
+	for(i=0; i<t; i++) {
+
+		sum += arr[i] ;
+	}
+
+	// Finds the average of all array elements
+
+	sum = sum / t ;
+
+	//Prints results
 
 	printf("average = %f", sum) ;
 
