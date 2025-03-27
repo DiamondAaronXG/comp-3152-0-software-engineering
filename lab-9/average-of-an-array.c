@@ -21,7 +21,6 @@ int main() {
 	printf("Enter numbers for the array (Click enter after each entry): \n");
 	for(i=0; i<t; i++) {
 		scanf("%f", &arr[i]);
-
 	}
 
 	// Finds the sum of all array elements
