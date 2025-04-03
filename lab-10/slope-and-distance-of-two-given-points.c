@@ -2,8 +2,7 @@
 #include <math.h>
 
 struct Point {
-	float x ;
-	float y ;
+	float x , y ;
 };
 
 float Slope(struct Point p1, struct Point p2) {
